@@ -1,0 +1,113 @@
+body{
+    background-color: #3a5a99;
+}
+.main {
+    background-color: #f7f7fa;
+    width: 54%;
+    height: 537px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 4px;
+}
+.sign-up, .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+#fname, #lname, #Email, #Npassword {
+    border-radius: 5px;
+    border: 1px solid #dde2eb; 
+    padding: 6px;
+    font-size: 16px;
+}
+
+#fname {
+    width: 48%;
+    margin-left: auto;
+    margin-right: 0px;  
+}
+#lname{
+    width: 46%;
+    margin-left: 4px;
+    margin-right: 0px;
+}
+#Npassword, #Email{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Email{
+    margin-top: 11px;
+}
+#Npassword {
+    margin-top: 10px;
+}
+h1 {
+    padding-top: 22px;
+}
+.sign-up p {
+    padding-bottom: 5px;
+}
+.birthDay {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+label[for=Bday] {
+    display: block;
+    font-size: 17px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    color: #94969f;
+}
+.Bday{
+    margin-bottom: 11px;
+}
+#day, #month, #year {
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #dde2eb;
+    color: #696969;
+    padding: 4px;
+    margin-right: 11px;
+}
+
+
+#day {
+    width: 17%;
+}
+#month {
+    width: 17%;
+}
+#year {
+    width: 17%;
+}
+.gender {
+    font-size: 16px;
+}
+label[for="Gender"] {
+    display: block;
+    color: #979fac;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+label[for="Male"], label[for="Female"], label[for="Custom"] {
+    color: #696969;
+    font-size: 17px;
+}
+form p {
+    color:#a8afc0;
+}
+#submit {
+    background-color: #5c9549;
+    font-size: 18px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 51px;
+    color: #fcf8e9;
+}
+select {
+    size : 5;
+
+}
